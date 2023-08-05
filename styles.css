@@ -1,14 +1,3 @@
-:root {
-    --white: #ffffff;
-    --dairy: #FCFCFC;
-    --cornflower: #E7E9FC;
-    --iris: #4d5ae5;
-    --ocean: #404BBF;
-    --slate: #434455;
-    --navy-blue: #2e2f42;
-}
-
-
 header {
     background-color: var(--white);
     display: block;
@@ -73,7 +62,9 @@ address {
     font-style: normal;
 }
 
-.address-items {}
+.address-items {
+    font-style: normal;
+}
 
 .address-email {
     padding-right: 40 px;
@@ -101,7 +92,7 @@ ul li {
 
 button {
     background-color: var(--cornflower);
-    color: var(i);
+    color: var(--navy-blue);
 }
 
 button:hover {
