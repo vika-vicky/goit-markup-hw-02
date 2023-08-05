@@ -1,11 +1,21 @@
+:root {
+    --white: #ffffff;
+    --dairy: #FCFCFC;
+    --cornflower: #E7E9FC;
+    --iris: #4d5ae5;
+    --ocean: #404BBF;
+    --slate: #434455;
+    --navy-blue: #2e2f42;
+}
+
 
 header {
-    background-color: #FFFFFF;
+    background-color: var(--white);
     display: block;
     width: 1440px;
     height: 72px;
     border-style: solid;
-    border-color: #E7E9FC;
+    border-color: var(--lavender);
     border-width: 1px;
 }
 
@@ -15,7 +25,7 @@ nav .logo {
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
-    color: var(#4d5ae5);
+    color: var(--blue);
     letter-spacing: 0.54px;
     text-transform: uppercase;
     float: left;
@@ -29,7 +39,7 @@ nav .logo {
 }
 
 .studio-text {
-    color: var(#2e2f42);
+    color: var(--dark-blue);
     text-shadow: none;
 }
 
@@ -52,14 +62,15 @@ nav .logo {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(#2e2f42);
+    color: var(--dark-blue);
 }
 
 .menu-item-portfolio {
     padding-right: 40px;
 }
+
 address {
-    font-style: normal; 
+    font-style: normal;
 }
 
 .address-items {}
@@ -79,8 +90,8 @@ address {
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: var(#FFFFFF)
+    color: var(--slate);
+    background-color: var(--white);
 }
 
 
@@ -89,11 +100,11 @@ ul li {
 }
 
 button {
-    background-color: #E7E9FC;
-    color: #4D5AE5;
+    background-color: var(--lavender);
+    color: var(--blue);
 }
 
 button:hover {
-    background-color: #404BBF;
-    color: #FFF;
+    background-color: var(--ocean);
+    color: var(--white);
 }
