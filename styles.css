@@ -15,7 +15,7 @@ header {
     width: 1440px;
     height: 72px;
     border-style: solid;
-    border-color: var(--lavender);
+    border-color: var(--cornflower);
     border-width: 1px;
 }
 
@@ -25,7 +25,7 @@ nav .logo {
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
-    color: var(--blue);
+    color: var(--iris);
     letter-spacing: 0.54px;
     text-transform: uppercase;
     float: left;
@@ -39,7 +39,7 @@ nav .logo {
 }
 
 .studio-text {
-    color: var(--dark-blue);
+    color:var(--navy-blue);
     text-shadow: none;
 }
 
@@ -62,7 +62,7 @@ nav .logo {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--dark-blue);
+    color: var(--navy-blue);
 }
 
 .menu-item-portfolio {
@@ -100,8 +100,8 @@ ul li {
 }
 
 button {
-    background-color: var(--lavender);
-    color: var(--blue);
+    background-color: var(--cornflower);
+    color: var(--iris);
 }
 
 button:hover {
