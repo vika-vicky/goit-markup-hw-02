@@ -1,3 +1,14 @@
+:root {
+    --white: #ffffff;
+    --dairy: #fcfcfc;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --slate: #434455;
+}
+
 header {
     background-color: var(--white);
     display: block;
@@ -32,26 +43,20 @@ nav .logo {
     text-shadow: none;
 }
 
-.list {
-    list-style: none;
-}
-
-.link {
-    text-decoration: none;
-}
-
-.menu-items {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-}
-
 .menu-item-studio {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+}
+
+.menu-item-studio:hover {
+    color: #404bbf;
+}
+
+.menu-item-studio:focus {
+    color: #404bbf;
 }
 
 .menu-item-portfolio {
@@ -71,6 +76,15 @@ address {
     padding-left: 332px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.address-email:hover {
+    color: #404bbf;
+}
+
+.address-email:focus {
+    color: #404bbf;
 }
 
 .address-pn {
