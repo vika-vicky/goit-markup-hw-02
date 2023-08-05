@@ -101,7 +101,7 @@ ul li {
 
 button {
     background-color: var(--cornflower);
-    color: var(--iris);
+    color: var(i);
 }
 
 button:hover {
