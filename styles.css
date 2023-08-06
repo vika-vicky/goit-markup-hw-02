@@ -8,17 +8,18 @@
     --navy-blue: #2e2f42;
     --slate: #434455;
 }
+.list {
+    list-style: none;
+  }
+  .link {
+    text-decoration: none;
+  }
 
-header {
+  body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
     background-color: var(--white);
-    display: block;
-    width: 1440px;
-    height: 72px;
-    border-style: solid;
-    border-color: var(--cornflower);
-    border-width: 1px;
 }
-
 
 nav .logo {
     font-family: Raleway, sans-serif;
@@ -28,22 +29,15 @@ nav .logo {
     color: var(--iris);
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    float: left;
-    padding-left: 156px;
-    padding-right: 76px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
 }
 
-.logo {
-    padding: 25.5px, 40px, 25.5px, 40px;
-}
 
 .studio-text {
     color:var(--navy-blue);
     text-shadow: none;
 }
 
-.menu-item-studio {
+.menu-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -51,16 +45,12 @@ nav .logo {
     color: var(--navy-blue);
 }
 
-.menu-item-studio:hover {
+.menu-item:hover {
     color: #404bbf;
 }
 
-.menu-item-studio:focus {
+.menu-item:focus {
     color: #404bbf;
-}
-
-.menu-item-portfolio {
-    padding-right: 40px;
 }
 
 address {
@@ -72,8 +62,6 @@ address {
 }
 
 .address-email {
-    padding-right: 40 px;
-    padding-left: 332px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
@@ -87,29 +75,23 @@ address {
     color: #404bbf;
 }
 
-.address-pn {
-    padding-right: 156px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: var(--white);
-}
-
-
 ul li {
     display: inline;
 }
 
-button {
+.hero-btn {
     background-color: var(--cornflower);
     color: var(--navy-blue);
+    font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
 }
 
-button:hover {
+.hero-btn:hover, 
+.hero-btn:focus {
     background-color: var(--ocean);
     color: var(--white);
 }
