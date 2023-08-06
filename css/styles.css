@@ -33,7 +33,7 @@ nav .logo {
     text-transform: uppercase;
 }
 
-
+/* navigation */
 .studio-text {
     color: var(--navy-blue);
     text-shadow: none;
@@ -47,10 +47,7 @@ nav .logo {
     color: var(--navy-blue);
 }
 
-.menu-item:hover {
-    color: #404bbf;
-}
-
+.menu-item:hover,
 .menu-item:focus {
     color: #404bbf;
 }
@@ -59,28 +56,20 @@ address {
     font-style: normal;
 }
 
-.address-items {
+.address-item {
     font-style: normal;
-}
-
-.address-email {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
 }
 
-.address-email:hover {
-    color: #404bbf;
-}
-
+.address-email:hover,
 .address-email:focus {
     color: #404bbf;
 }
 
-ul li {
-    display: inline;
-}
-
+/* section 1 hero  */
+/* hero button */
 .hero-btn {
     background-color: var(--cornflower);
     color: var(--navy-blue);
