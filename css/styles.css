@@ -177,3 +177,9 @@ color: var(--navy-blue);
     color: #FFFFFF;
     background-color: #404BBF;
 }
+
+.portfolio-second-level-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
