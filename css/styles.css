@@ -67,6 +67,13 @@ address {
 .address-item:focus {
     color: #404bbf;
 }
+
+/* footer */
+.footer {
+    background-color: var(--navy-blue)
+}
+
+
 /* page 1 */
 /* section 1 hero  */
 .hero-section {
@@ -125,7 +132,9 @@ color: var(--navy-blue);
 /* Section 4 Our Team */
 .our-team {
     background-color: #F4F4FD;
-
+}
+.our-team-list-item {
+    background-color: #FFFFFF;
 }
 
 /* page 2 */
