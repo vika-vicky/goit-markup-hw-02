@@ -67,22 +67,42 @@ address {
 .address-email:focus {
     color: #404bbf;
 }
-
+/* page 1 */
 /* section 1 hero  */
+.hero-section {
+    background-color: var(--navy-blue);
+}
+.page-header {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
 /* hero button */
 .hero-btn {
-    background-color: var(--cornflower);
-    color: var(--navy-blue);
+    background-color: #4D5AE5;
+    color: #ffffff ;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: var(--ocean);
     color: var(--white);
+}
+
+
+
+
+/* page 2 */
+/* filter buttons */
+.filter-buttons {
+
 }
