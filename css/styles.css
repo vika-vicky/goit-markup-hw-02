@@ -90,6 +90,12 @@ address {
     letter-spacing: 0.02em;
 }
 
+.footer-text {
+    line-height: 1.5;
+    color: var(--cloud);
+    letter-spacing: 0.02em;
+}
+
 /* page 1 */
 /* section 1 hero  */
 .hero-section {
