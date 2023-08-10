@@ -98,7 +98,7 @@ address {
     color: var(--white);
 }
 
-.h3-header-sec2-4 {
+.level-three-header {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -107,13 +107,13 @@ color: var(--navy-blue);
 
 }
 
-.sec2-4-paragraph {
+.sec-two-four-paragraph {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
 /* Section What are we doing  */
-.h2-header-sec3-4 {
+.second-level-header {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
