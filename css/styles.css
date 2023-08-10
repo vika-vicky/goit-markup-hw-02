@@ -183,3 +183,7 @@ color: var(--navy-blue);
     font-size: 20px;
     line-height: 1.2;
 }
+
+.portfolio-paragraph {
+    color: var(--slate);
+}
