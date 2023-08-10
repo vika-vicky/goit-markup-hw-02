@@ -112,7 +112,15 @@ color: var(--navy-blue);
     letter-spacing: 0.02em;
 }
 
-
+/* Section What are we doing  */
+.what-we-do-header {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navy-blue);
+}
 
 
 /* page 2 */
