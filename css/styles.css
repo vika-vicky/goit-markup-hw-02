@@ -63,8 +63,8 @@ address {
     color: var(--slate);
 }
 
-.address-email:hover,
-.address-email:focus {
+.address-item:hover,
+.address-item:focus {
     color: #404bbf;
 }
 /* page 1 */
@@ -83,7 +83,7 @@ address {
 .hero-btn {
     background-color: #4D5AE5;
     color: #ffffff ;
-    font-family: Roboto;
+    font-family: inherit;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -96,6 +96,20 @@ address {
 .hero-btn:focus {
     background-color: var(--ocean);
     color: var(--white);
+}
+
+.pillars-section-header {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--navy-blue);
+
+}
+
+.pillars-section-paragraph {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 
